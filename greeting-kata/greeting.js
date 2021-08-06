@@ -29,7 +29,6 @@ const greet = (name) => {
 }
 
 const stringSplitter = (str) => {
-  console.log(str)
   return str.split(', ');
 }
 
@@ -83,8 +82,6 @@ const greetArray = (arr) => {
 
   return greeting;
 }
-
-console.log(greetArray(["Bob", "Charlie, Dianne"]))
 
 const greetUpperCase = (name) => {
   return result = `HELLO ${name}!`;
